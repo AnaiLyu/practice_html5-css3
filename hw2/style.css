@@ -149,3 +149,31 @@ section {
 }
 
 /* scrinshots */
+
+.scrinshots {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.scrinshots h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.scrinshots-content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* justify-content: flex-end; */
+  width: 575px;
+}
+
+.scrinshots-content p {
+  /* flex-shrink: 1; */
+}
+
+.scrinshot {
+  width: 200px;
+  height: 150px;
+  background-color: #445161;
+}
